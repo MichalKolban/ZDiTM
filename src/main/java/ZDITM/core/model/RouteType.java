@@ -1,4 +1,4 @@
-package ZDITM.model;
+package ZDITM.core.model;
 
 
 

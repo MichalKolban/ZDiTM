@@ -1,6 +1,6 @@
-package ZDITM.Repository;
+package ZDITM.core.Repository;
 
-import ZDITM.model.Agency;
+import ZDITM.core.model.Agency;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package ZDITM.parser;
+package ZDITM.core.parser;
 
-import ZDITM.model.Agency;
-import ZDITM.model.FeedModel;
+import ZDITM.core.model.Agency;
+import ZDITM.core.model.FeedModel;
 
 public class AgencyParser extends BaseFeedParcer<Agency> {
 

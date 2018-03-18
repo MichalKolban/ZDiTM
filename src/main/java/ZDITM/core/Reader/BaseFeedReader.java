@@ -1,8 +1,8 @@
-package ZDITM.Reader;
+package ZDITM.core.Reader;
 
-import ZDITM.Repository.FeedRepository;
-import ZDITM.model.FeedModel;
-import ZDITM.parser.FeedParser;
+import ZDITM.core.Repository.FeedRepository;
+import ZDITM.core.model.FeedModel;
+import ZDITM.core.parser.FeedParser;
 
 import java.io.IOException;
 import java.nio.file.Files;

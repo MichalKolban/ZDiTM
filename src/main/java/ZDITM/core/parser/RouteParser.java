@@ -1,7 +1,7 @@
-package ZDITM.parser;
+package ZDITM.core.parser;
 
-import ZDITM.model.FeedModel;
-import ZDITM.model.Route;
+import ZDITM.core.model.FeedModel;
+import ZDITM.core.model.Route;
 
 public class RouteParser extends BaseFeedParcer<Route> {
 

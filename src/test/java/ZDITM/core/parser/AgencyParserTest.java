@@ -1,10 +1,8 @@
-package ZDITM.parser;
+package ZDITM.core.parser;
 
-import ZDITM.model.Agency;
+import ZDITM.core.model.Agency;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class AgencyParserTest {
 

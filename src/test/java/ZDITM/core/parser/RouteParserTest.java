@@ -1,6 +1,6 @@
-package ZDITM.parser;
+package ZDITM.core.parser;
 
-import ZDITM.model.Route;
+import ZDITM.core.model.Route;
 import org.junit.Before;
 import org.junit.Test;
 

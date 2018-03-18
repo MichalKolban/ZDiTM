@@ -1,6 +1,6 @@
-package ZDITM.parser;
+package ZDITM.core.parser;
 
-import ZDITM.model.FeedModel;
+import ZDITM.core.model.FeedModel;
 
 public interface FeedParser<T extends FeedModel> {
 

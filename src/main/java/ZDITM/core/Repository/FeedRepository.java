@@ -1,6 +1,6 @@
-package ZDITM.Repository;
+package ZDITM.core.Repository;
 
-import ZDITM.model.FeedModel;
+import ZDITM.core.model.FeedModel;
 
 import java.util.List;
 

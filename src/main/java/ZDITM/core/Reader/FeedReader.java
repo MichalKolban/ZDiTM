@@ -1,6 +1,6 @@
-package ZDITM.Reader;
+package ZDITM.core.Reader;
 
-import ZDITM.model.FeedModel;
+import ZDITM.core.model.FeedModel;
 
 public interface FeedReader<T extends FeedModel> {
     void read();

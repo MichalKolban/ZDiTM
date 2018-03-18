@@ -1,6 +1,7 @@
-package ZDITM.model;
+package ZDITM.core.model;
 
 import ZDITM.Utils.TextUtils;
+import ZDITM.core.model.FeedModel;
 
 public class Agency extends FeedModel {
 
