@@ -4,6 +4,8 @@ import ZDITM.core.model.Agency;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class AgencyParserTest {
 
     private static final String TEST_LINE = "ZDiTM Szczecin,http://www.zditm.szczecin.pl,Europe/Warsaw,pl,91 480 04 03";

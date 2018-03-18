@@ -1,4 +1,4 @@
-package ZDITM;
+package ZDITM.core.Reader;
 
 import ZDITM.core.Reader.AgencyFeedReader;
 import ZDITM.core.Reader.FeedReader;

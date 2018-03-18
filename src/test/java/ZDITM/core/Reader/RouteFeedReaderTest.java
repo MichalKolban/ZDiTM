@@ -18,13 +18,13 @@ public class RouteFeedReaderTest {
     private FeedReader<Route> routeFeedReader;
 
     @Before
-    public void setUp() throws Exception{
+    public void setUp() throws Exception {
         repository = new RouteRepository();
         routeParser = new RouteParser();
         routeFeedReader = new RouteFeedReader(routeParser, repository);
     }
 
-    public void testParseRoute(){
+    public void testParseRoute() {
 
         //given
 
@@ -34,7 +34,7 @@ public class RouteFeedReaderTest {
 
         //then
         assertTrue(!list.isEmpty());
-        assertEquals(1,list.size());
+        assertEquals(1, list.size());
     }
 
 
