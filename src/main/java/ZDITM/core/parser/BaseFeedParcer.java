@@ -7,7 +7,6 @@ public abstract class BaseFeedParcer<T extends FeedModel> implements FeedParser 
     protected String[] splitFeedInfo;
 
     public BaseFeedParcer(){
-        super();
     }
 
     public FeedModel parseTo(String feedInfo) {

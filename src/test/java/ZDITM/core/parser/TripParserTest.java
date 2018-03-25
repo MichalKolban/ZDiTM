@@ -19,13 +19,22 @@ public class TripParserTest {
     }
 
     @Test
-    public void testParseTrip
-    // given
-    Trip trip;
+    public void testParseTrip(){
+        // given
+        Trip testTrip;
 
-    //when
-    testTrip = tripParser.parseTo(TEST_LINE);
+        //when
+        testTrip = tripParser.parseTo(TEST_LINE);
 
-    //then
-    assertEquals(testAgency.)
+        //then
+        assertEquals(testTrip.getRouteId(),trip.getRouteId());
+        assertEquals(testTrip.getServiceId(),trip.getServiceId());
+        assertEquals(testTrip.getTripId(),trip.getTripId());
+        assertEquals(testTrip.getTripHeadsign(),trip.getTripHeadsign());
+        assertEquals(testTrip.getDirectionId(),trip.getDirectionId());
+        assertEquals(testTrip.getBlockId(),trip.getBlockId());
+        assertEquals(testTrip.getShapeId(),trip.getShapeId());
+        assertEquals(testTrip.getWheelchairAccessible(),trip.getWheelchairAccessible());
+        assertEquals(testTrip.getLowFloor(),trip.getLowFloor());
+    }
 }

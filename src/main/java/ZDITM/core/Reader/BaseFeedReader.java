@@ -13,10 +13,10 @@ public abstract class BaseFeedReader <T extends FeedModel> implements FeedReader
     private final FeedParser<T> parser;
     private final FeedRepository<T> repository;
 
-public BaseFeedReader(FeedParser<T> parser, FeedRepository<T> repository) {
-    this.parser = parser;
-    this.repository = repository;
-}
+    public BaseFeedReader(FeedParser<T> parser, FeedRepository<T> repository) {
+        this.parser = parser;
+        this.repository = repository;
+    }
 
     @Override
     public void read() {
@@ -24,7 +24,7 @@ public BaseFeedReader(FeedParser<T> parser, FeedRepository<T> repository) {
             Files.lines(Paths.get(getFileDir())).skip(1).forEach(
                     line -> repository.insert(parser.parseTo(line))
             );
-        }catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

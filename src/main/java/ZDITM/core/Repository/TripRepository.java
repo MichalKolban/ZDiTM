@@ -30,6 +30,6 @@ public class TripRepository implements FeedRepository<Trip> {
 
     @Override
     public List<Trip> getAll() {
-        return null;
+        return tripList;
     }
 }

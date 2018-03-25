@@ -101,4 +101,20 @@ public class Trip extends FeedModel {
     public void setLowFloor(String lowFloor) {
         this.lowFloor = lowFloor;
     }
+
+    @Override
+    public String toString() {
+        return "Trip{" +
+                "routeId='" + routeId + '\'' +
+                ", serviceId='" + serviceId + '\'' +
+                ", tripId='" + tripId + '\'' +
+                ", tripHeadsign='" + tripHeadsign + '\'' +
+                ", directionId='" + directionId + '\'' +
+                ", blockId='" + blockId + '\'' +
+                ", shapeId='" + shapeId + '\'' +
+                ", wheelchairAccessible='" + wheelchairAccessible + '\'' +
+                ", lowFloor='" + lowFloor + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }
